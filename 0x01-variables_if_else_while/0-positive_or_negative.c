@@ -11,7 +11,7 @@
  *
  * Random number positive or negative
  *
- * Return is always 0
+ * Return: 0
  */
 
 int main(void)
@@ -27,11 +27,11 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					if (n > 0)
-						printf("n is positive");
+						printf("%d is positive");
 					if (n == 0)
-						printf("n is zero");
+						printf("%d is zero");
 					if (n < 0)
-						printf("n is negative");
+						printf("%d is negative");
 
 					return (0);
 
