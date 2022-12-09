@@ -6,7 +6,13 @@
 
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - entry point
+ *
+ * Random number positive or negative
+ *
+ * Return is always 0
+ */
 
 int main(void)
 
@@ -21,11 +27,11 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					if (n > 0)
-						printf("is positive");
+						printf("n is positive");
 					if (n == 0)
-						printf("is zero");
+						printf("n is zero");
 					if (n < 0)
-						printf("is negative");
+						printf("n is negative");
 
 					return (0);
 
