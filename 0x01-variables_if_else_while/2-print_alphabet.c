@@ -1,14 +1,19 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - print alphabet
+ *
  * Return: Always 0
+ *
  */
 int main(void)
 {
-	int ch;
+	char ch = 'A';
 
-	for (ch = 'a'; ch <= 'Z'; ch++)
-		putchar(ch) ; n
-	return (0);
+	for (i = 'A'; i <= 'Z'; ch++)
+	{
+		putchar("%c", ch);
+	}
+	putchar("\n");
 }
+	return (0);
